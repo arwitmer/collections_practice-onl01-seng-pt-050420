@@ -25,7 +25,7 @@ end
 
 def kesha_maker(array)
   texts = ["blake", "ashley", "scott"] |text|
-  texts.each[3], "$"
+  text.each[3], "$"
 end
 
   
