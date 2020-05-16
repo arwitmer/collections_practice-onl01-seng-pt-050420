@@ -28,5 +28,6 @@ def kesha_maker(array)
     puts ["bl$ke", "as$ley", "sc$tt"]
 end
 
-
+def find_a(array)
+  
   
