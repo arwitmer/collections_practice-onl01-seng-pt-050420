@@ -15,4 +15,4 @@ end
 
 def swap_elements(array)
   names = ["blake", "ashley", "scott"]
-  names.sort 
+  
