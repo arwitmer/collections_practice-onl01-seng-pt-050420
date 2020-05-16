@@ -23,3 +23,4 @@ def reverse_array(array)
   integers.reverse
 end
 
+def kesha_maker(array)
