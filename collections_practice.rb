@@ -22,3 +22,4 @@ def reverse_array(array)
   integers = [12, 4, 35]
   integers.reverse
 end
+
