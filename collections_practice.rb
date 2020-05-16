@@ -25,5 +25,5 @@ end
 
 def kesha_maker(array)
   text = ["blake", "ashley", "scott"]
-  text.
+  text.gsub 
   
