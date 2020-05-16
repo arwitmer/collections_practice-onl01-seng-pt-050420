@@ -24,8 +24,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  texts = ["blake", "ashley", "scott"]
-  texts.gsub /[/, "$"
+  texts = ["blake", "ashley", "scott"] |text|
+  texts.gsub.each text/[3]/, "$"
 end
 
   
