@@ -19,4 +19,6 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  
+  integers = [12, 4, 35]
+  integers.reverse_array
+end
