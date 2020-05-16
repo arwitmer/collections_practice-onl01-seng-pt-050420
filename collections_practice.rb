@@ -15,5 +15,5 @@ end
 
 def swap_elements(array)
   names = ["blake", "ashley", "scott"]
-  names[1], names[2], names[3] = names[2], names[1], names[3]
+  (swap_elements(["blake", "ashley", "scott"])) == (["blake", "scott", "ashley"])
 end
