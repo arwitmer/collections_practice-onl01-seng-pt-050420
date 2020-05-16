@@ -18,4 +18,5 @@ def swap_elements(array)
   (swap_elements(["blake", "ashley", "scott"])) == (["blake", "scott", "ashley"])
 end
 
-def 
+def reverse_array(array)
+  
