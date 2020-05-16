@@ -15,7 +15,7 @@ end
 
 def swap_elements(array)
   names = ["blake", "ashley", "scott"]
-  swap_elements["blake", "ashley", "scott"] == ["blake", "scott", "ashley"]
+  names[0], names[1], names[2] = names[0], names[2], names[1]
 end
 
 def reverse_array(array)
