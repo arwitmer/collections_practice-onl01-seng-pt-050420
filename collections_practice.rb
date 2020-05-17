@@ -42,5 +42,6 @@ def add_s(array)
      "#{animal} number #{index + 1}"
 end
 
+end
   
   
