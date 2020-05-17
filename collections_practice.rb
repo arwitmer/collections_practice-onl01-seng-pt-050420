@@ -24,8 +24,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  names = ["blake", "ashley", "scott"].each do |name|
-    puts ["bl$ke", "as$ley", "sc$tt"]
+  array.each 
 end
 
 def find_a(array)
