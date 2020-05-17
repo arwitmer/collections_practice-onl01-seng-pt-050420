@@ -38,6 +38,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
+  ary.each_with_index.collect { |animal, index|
+     "#{animal} number #{index + 1}"
   
   
