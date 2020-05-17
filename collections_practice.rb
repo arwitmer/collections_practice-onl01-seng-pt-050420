@@ -29,6 +29,9 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  
+  text.start_with?("a")
+end
+
+
   
   
