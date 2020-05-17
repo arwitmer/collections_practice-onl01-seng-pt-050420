@@ -1,47 +1,74 @@
+require 'pry'
+
 def sort_array_asc(array)
-  integers = [25, 7, 1] 
-  integers.sort 
+  array.sort
 end
 
 def sort_array_desc(array)
-  integers = [25, 7, 14]
-  integers.sort! {|x, y| y <=> x}
+  array.sort do | left, right|
+    right <=> left
+  end
 end
 
 def sort_array_char_count(array)
-  strings = ["dogs", "cat", "Horses"]
-  strings.sort {|left, right| left.length <=> right.length}
+  array.sort do |left, right|
+    left.length <=> right.length
+  end
 end
 
 def swap_elements(array)
-  names = ["blake", "ashley", "scott"]
-  names[0], names[1], names[2] = names[0], names[2], names[1]
+  array[1], array[2] = array[2], array[1]
+  array
 end
 
 def reverse_array(array)
-  integers = [12, 4, 35]
-  integers.reverse
+  array.reverse
 end
 
 def kesha_maker(array)
   array.each do |item|
     item[2] = "$"
+  end
 end
 
 def find_a(array)
-  text.start_with?("a")
+  array.find_all do |word|
+    word[0] == "a"
+  end
+
+  # using select method
+    # array.select do |word|
+    #   word[0] == "a"
+    # end
 end
 
 def sum_array(array)
-  integers = []
-  integers.inject
+  sum = 0
+  array.each do |num|
+    sum+=num
+  end
+  sum
+
+  # using reduce method
+    # array.reduce(:+)
+
+  # using inject method (short)
+     # array.inject(:+)
+
+  # using inject method (long)
+     # array.inject do |sum,x|
+     #  sum + x
+     # end
 end
 
 def add_s(array)
-  array.each_with_index.collect { |animal, index|
-     "#{animal} number #{index + 1}"
-end
-
+  array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
 end
   
   
